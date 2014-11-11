@@ -17,7 +17,7 @@ public class fibo {
         }
         else
         {
-            return 0;
+            return calcular(numero-1);
         }
     }
 }
