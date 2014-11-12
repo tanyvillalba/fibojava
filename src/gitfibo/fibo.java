@@ -17,13 +17,9 @@ public class fibo {
         }
         else
         {
-<<<<<<< HEAD
             //Mejorar usando cache
+	    //Ultimo ultimo
             return calcular(numero-1)+calcular(numero-2);
-=======
-	    //comentario final
-            return calcular(numero-1);
->>>>>>> 22abc1bf536ed3b6f07cc0f9425db21c4fdcbf89
         }
     }
 }
