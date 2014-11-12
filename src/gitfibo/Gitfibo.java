@@ -17,5 +17,6 @@ public class Gitfibo {
         // TODO code application logic here
         fibo fib=new fibo();
         System.out.println(fib.calcular(0));
+	System.out.println(fib.calcular(1));
     }
 }
