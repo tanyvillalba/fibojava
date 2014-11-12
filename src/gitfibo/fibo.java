@@ -17,7 +17,8 @@ public class fibo {
         }
         else
         {
-            return calcular(numero-1);
+            //Mejorar usando cache
+            return calcular(numero-1)+calcular(numero-2);
         }
     }
 }
